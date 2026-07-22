@@ -222,7 +222,7 @@ class RareDrops {
                 id = "DIVER_FRAGMENT",
                 itemName = RareDropTypes.EMPERORS_SKULL.displayName,
                 rarityColorCode = RARE.code,
-                npcPrice = 50_000,
+                npcPrice = 100,
                 isExtremelyRare = false,
                 defaultSoundFileName = Sounds.FEESH_OH_MY_GOD
             ),
