@@ -27,6 +27,7 @@ enum class RareDropTypes(val displayName: String) {
     DISTANT_ECHO("Distant Echo"),
     REINFORCED_NETTING("Reinforced Netting"),
     WATER_HYACINTH("Water Hyacinth"),
+    EMPERORS_SKULL("Emperor's Skull"),
 
     MEGALODON_LEGENDARY("Megalodon (Legendary)"),
     MEGALODON_EPIC("Megalodon (Epic)"),
@@ -214,6 +215,14 @@ class RareDrops {
                 itemName = RareDropTypes.REINFORCED_NETTING.displayName,
                 rarityColorCode = LEGENDARY.code,
                 npcPrice = 1_000_000, // ?
+                isExtremelyRare = false,
+                defaultSoundFileName = Sounds.FEESH_OH_MY_GOD
+            ),
+            RareDropInfo(
+                id = "DIVER_FRAGMENT",
+                itemName = RareDropTypes.EMPERORS_SKULL.displayName,
+                rarityColorCode = RARE.code,
+                npcPrice = 50_000,
                 isExtremelyRare = false,
                 defaultSoundFileName = Sounds.FEESH_OH_MY_GOD
             ),
